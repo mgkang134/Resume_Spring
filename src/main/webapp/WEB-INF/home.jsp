@@ -44,8 +44,8 @@
 					href="#skills">Skills</a></li>
 				<li class="nav-item"><a class="nav-link js-scroll-trigger"
 					href="#interests">Interests</a></li>
-				<li class="nav-item"><a class="nav-link js-scroll-trigger"
-					href="#awards">Awards</a></li>
+				<!-- <li class="nav-item"><a class="nav-link js-scroll-trigger"
+					href="#awards">Awards</a></li> -->
 			</ul>
 		</div>
 	</nav>
@@ -54,10 +54,12 @@
 		<!-- About-->
 		<section class="resume-section" id="about">
 			<div class="resume-section-content">
-				<h2 class="mb-0">강민걸</h2>
-				<div class="mb-5">mgkang134@gmail.com</div>
+				<h2 class="mb-5">About</h2>
+				<h4 class="mb-3">강민걸</h4>
+				<div class="mb-1">이메일 : mgkang134@gmail.com</div>
+				<div class="mb-3">나이 : ${myAge}세</div>
 				<p class="lead mb-5">
-					과제를 원하는 개발자 지망생입니다.<br> Java - Spring - Backend를 지향합니다.
+					새로운 과제에 목마른 개발자 지망생입니다.<br> Java - Spring - Backend를 지향합니다.
 				</p>
 				<div class="social-icons">
 					<a class="social-icon" href="https://github.com/mgkang134"><i
@@ -113,9 +115,9 @@
 				<div
 					class="d-flex flex-column flex-md-row justify-content-between mb-5">
 					<div class="flex-grow-1">
-						<h3 class="mb-0">서울 과학기술대학교</h3>
-						<div>컴퓨터 공학과</div>
-						<p>GPA: 3.35</p>
+						<h3 class="mb-1">서울 과학기술대학교</h3>
+						<div class="mb-1">컴퓨터 공학과</div>
+						<p >GPA: 3.35</p>
 					</div>
 					<div class="flex-shrink-0">
 						<span class="text-primary">2013.03 - 2020.02</span>
@@ -135,24 +137,56 @@
 		<!-- Skills-->
 		<section class="resume-section" id="skills">
 			<div class="resume-section-content">
-				<h2 class="mb-5">Skills</h2>
-				<div class="mb-3">다음과 같은 기술들을 공부하고 있습니다.</div>
-				<div class="list-inline dev-icons ">
+				<h2 class="mb-2">Skills</h2>
+				<div class="mb-5">다음과 같은 기술들을 공부하고 있습니다.</div>
+				<h5 class="mb-3">Languages</h5>
+				<div class="list-inline dev-icons mb-4">
 					<div class="Skill_image_container"
-							style="background-image: url('assets/img/html.png');"></div>
-					<div class="Skill_image_container"
-						style="background-image: url('assets/img/css.png');"></div>
+						style="background-image: url('assets/img/java.png');"></div>
 					<div class="Skill_image_container"
 						style="background-image: url('assets/img/javascript.png');"></div>
-				</div>
-				<div class="list-inline dev-icons">
-					<div class="Skill_image_container"
-						style="background-image: url('assets/img/java.jpg');"></div>
-					<div class="Skill_image_container"
-						style="background-image: url('assets/img/spring.png');"></div>
 					<div class="Skill_image_container"
 						style="background-image: url('assets/img/sql.png');"></div>
 				</div>
+				<h5 class="mb-3">Frameworks</h5>
+				<div class="list-inline dev-icons mb-4">
+
+					<div class="Skill_image_container"
+						style="background-image: url('assets/img/spring.png');"></div>
+
+				</div>
+				<h5 class="mb-3">Web Skills</h5>
+				<div class="list-inline dev-icons mb-4">
+					<div class="Skill_image_container"
+						style="background-image: url('assets/img/html.png');"></div>
+					<div class="Skill_image_container"
+						style="background-image: url('assets/img/css.png');"></div>
+					<div class="Skill_image_container"
+						style="background-image: url('assets/img/ajax.png');"></div>
+				</div>
+				<h5 class="mb-3">DataBase & ORM</h5>
+				<div class="list-inline dev-icons mb-4">
+					<div class="Skill_image_container"
+						style="background-image: url('assets/img/mysql.png');"></div>
+					<div class="Skill_image_container"
+						style="background-image: url('assets/img/mybatis.png');"></div>
+				</div>
+				<h5 class="mb-3">Server</h5>
+				<div class="list-inline dev-icons mb-4">
+					<div class="Skill_image_container"
+						style="background-image: url('assets/img/aws.png');"></div>
+					<div class="Skill_image_container"
+						style="background-image: url('assets/img/ubuntu.png');"></div>
+				</div>
+				<h5 class="mb-3">Etc</h5>
+				<div class="list-inline dev-icons mb-4">
+					<div class="Skill_image_container"
+						style="background-image: url('assets/img/git.png');"></div>
+					<div class="Skill_image_container"
+						style="background-image: url('assets/img/bootstrap.png');"></div>
+						
+				</div>
+				
 				<!-- <div class="subheading mb-3">Workflow</div>
 				<ul class="fa-ul mb-0">
 					<li><span class="fa-li"><i class="fas fa-check"></i></span>
@@ -165,27 +199,26 @@
 						Agile Development & Scrum</li>
 				</ul>
 			 -->
-			 </div>
+			</div>
 		</section>
 		<hr class="m-0" />
 		<!-- Interests-->
 		<section class="resume-section" id="interests">
 			<div class="resume-section-content">
-				<h2 class="mb-5">Interests</h2>
-				<p>Apart from being a web developer, I enjoy most of my time
-					being outdoors. In the winter, I am an avid skier and novice ice
-					climber. During the warmer months here in Colorado, I enjoy
-					mountain biking, free climbing, and kayaking.</p>
-				<p class="mb-0">When forced indoors, I follow a number of sci-fi
-					and fantasy genre movies and television shows, I am an aspiring
-					chef, and I spend a large amount of my free time exploring the
-					latest technology advancements in the front-end web development
-					world.</p>
+				<h2 class="mb-2">Interests</h2>
+				<div class="mb-5">저의 관심사는 다음과 같습니다.</div>
+				<p>
+				파이썬, GO와 같이 생산성이 높고 간결한 언어를 좋아하여 취미로 개발하고 있습니다. 
+				</p>
+				<p>여러 분야의 책을 읽는 것을 좋아합니다.</p>
+				<p><strong>스포츠랑은 담 쌓았습니다. 물어보지 말아주세요.</strong></p>
+				<p></p>
+				
 			</div>
 		</section>
 		<hr class="m-0" />
 		<!-- Awards-->
-		<section class="resume-section" id="awards">
+		<!-- <section class="resume-section" id="awards">
 			<div class="resume-section-content">
 				<h2 class="mb-5">Awards & Certifications</h2>
 				<ul class="fa-ul mb-0">
@@ -213,7 +246,7 @@
 						James Buchanan High School - Hackathon 2005</li>
 				</ul>
 			</div>
-		</section>
+		</section> -->
 	</div>
 	<!-- Bootstrap core JS-->
 	<script
