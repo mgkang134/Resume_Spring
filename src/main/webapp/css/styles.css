@@ -363,6 +363,18 @@ template {
   display: none !important;
 }
 
+.Skill_image_container {
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right: 1rem;
+    /* box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2); */
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
